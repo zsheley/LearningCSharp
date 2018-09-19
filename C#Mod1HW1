@@ -1,0 +1,25 @@
+using System;
+
+namespace ProgrammingHW1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.BackgroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine("Greeting: Hi guys! How is everyone?");
+            Console.WriteLine("Name: Zachery Sheley");
+            Console.WriteLine("Fun Fact: I went to Survival Camp in Florida.");
+            Console.WriteLine("   "); /* learn how to create space between text "padding instead of these three lines */
+            Console.WriteLine("   ");
+            Console.WriteLine("   ");
+            Console.WriteLine("I reccomend setting a volume ranging from 10 - 15 on a device running Windows 10 before any key is pressed.");
+            Console.ReadKey(); /* Keeps Application Open */
+            Console.ResetColor();
+            Console.Beep(5000, 5000); /* shrill beep will be played for 5 sec */
+        }
+    }
+}
