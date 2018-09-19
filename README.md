@@ -1,2 +1,2 @@
 # LearningCSharp
-Code for Pragramming class
+Code for Programming class
